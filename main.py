@@ -43,7 +43,7 @@ while 1 > num:
         WantedPrice = 10
         
         
-        if WantedPrice > floorPSOL:
+        if WantedPrice < floorPSOL:
             app.s.set('Price has dropped: ' + str(floorPSOL)) 
             botAPI = "Your API of BOT FATHER TELEGRAM"
             chatID = "CHAT ID, you can get here = https://api.telegram.org/botAPIKEY/getUpdates CHANGE API KEY FOR YOUR KEY"
